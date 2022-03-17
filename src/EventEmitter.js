@@ -2,6 +2,7 @@
 Не стоит пытаться использовать такой EventEmitter в реальных проектах,
 он существует только для учебных целей и обладает сильно ограниченным функционалом.
  */
+
 export const EventEmitter = {
     handlers: new Map(),
     on(eventName, callback) {
